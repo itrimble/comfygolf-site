@@ -1,0 +1,29 @@
+{
+  "_comment": "Copy this to manifest.json to describe a non-standard asset pack. Every path is relative to public/assets/. When manifest.json is absent the loader probes the conventional names below instead.",
+
+  "golfer": "characters/golfer/golfer_lod0.glb",
+  "animations": "characters/golfer/animations.glb",
+
+  "equipment": {
+    "DRIVER": "equipment/club_driver.glb",
+    "IRON5": "equipment/club_iron.glb",
+    "IRON9": "equipment/club_iron.glb",
+    "WEDGE": "equipment/club_wedge.glb",
+    "PUTTER": "equipment/club_putter.glb"
+  },
+
+  "materials": {
+    "turf": {
+      "baseColor": "materials/turf_basecolor.jpg",
+      "normal": "materials/turf_normal.jpg",
+      "roughness": "materials/turf_roughness.jpg"
+    },
+    "sand": {
+      "baseColor": "materials/sand_basecolor.jpg",
+      "normal": "materials/sand_normal.jpg",
+      "roughness": "materials/sand_roughness.jpg"
+    }
+  },
+
+  "environment": "environment/clear_outdoor.hdr"
+}
